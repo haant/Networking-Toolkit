@@ -2,13 +2,19 @@
 
 ## About the Project
 
-This is a simple script written with various functions and classes for your networking usage, with features like a speed test, IP ping, and IP port scanning with various parameters. 
+[CLI-Networking-Script](https://github.com/haant/Networking-Toolkit/blob/main/CLI_networking_script.png)
+
+This script contains several classes that perform various network-related tasks. The SpeedTest class uses the speedtest module to measure the download and upload speed of the user's internet connection in megabits per second (Mbps). The PingIP class allows the user to ping a specific IP address and returns the ping results. The PortScanner class allows the user to scan the ports of a specific IP address, either the current IP or an inputted IP. Additionally, the user can also scan a specific port with an inputted IP address. The script is written in Python and is designed to be easy to use and understand, making it a useful tool for network administrators, developers and anyone who works with networks.
 
 ## Getting Started
 
 Please make sure you have the following libraries pre-installed:
 ```
-
+nmap
+speedtest
+socket
+requests 
+pythonping
 ```
 
 Please refer below for the GitHub pages of the above libraries. They can all be installed uisng ```pip```.
@@ -27,4 +33,8 @@ Many thanks for checking out my project!
 
 All libraries in thie project are as follows:
 
-- 
+- [nmap](https://github.com/home-assistant-libs/python-nmap)
+- [speedtest](https://github.com/sivel/speedtest-cli)
+- [socket](https://docs.python.org/3/library/socket.html)
+- [requests](https://github.com/psf/requests)
+- [pythonping](https://pypi.org/project/pythonping/)
