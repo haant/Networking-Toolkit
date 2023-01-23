@@ -18,7 +18,7 @@ pythonping
 ```
 1) To run the script, open the terminal, navigate to the directory where the script is located and type the following command:
 ```
-python3 networking_script.py
+python3 networking_toolkit.py
 ```
 2) You will be presented with a menu of options. Select the one you wish to use:
 ```
