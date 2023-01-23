@@ -16,10 +16,25 @@ socket
 requests 
 pythonping
 ```
-
+1) To run the script, open the terminal, navigate to the directory where the script is located and type the following command:
+```
+python3 networking_script.py
+```
+2) You will be presented with a menu of options. Select the one you wish to use:
+```
+0) Exit
+1) Speedtest
+2) IP ping
+3) Scan Ports of Current IP
+4) Scan Ports of Inputted IP
+5) Scan Specific Port with Inputted IP
+```
+3) For example, if you select option 2, you will be prompted to enter an IP address to ping, as well as the number of pings you would like to send. Once you have entered that information, the script will display the ping results, and re-prompt you for another choice. 
+4) If you select option 3, the script will scan the ports of your current IP address. 
+5) If you select option 4, you will be prompted to enter an IP address to scan, and the script will scan the ports of the inputted IP address. 
+6) If you select option 5, you will be prompted to enter an IP address and port number to scan, and the script will scan the specific port with the inputted IP address. 
+7) Once you finish with your selection, the script will display the results of the task you selected. 
 Please refer below for the GitHub pages of the above libraries. They can all be installed uisng ```pip```.
-
- 
 
 ## Contact
 
